@@ -313,3 +313,10 @@ const mission5 = (militaryUnit) => {
   }
   console.log(mission5(militaryUnit));
   
+  module.exports = {
+    mission1: Mission1,
+    mission2: Mission2,
+    mission3: mission3,
+    mission4: mission4,
+    mission5: mission5
+  }
